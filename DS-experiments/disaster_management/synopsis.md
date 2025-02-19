@@ -24,6 +24,7 @@ Dataset special parameters.
 ## Analysis Technique
 - Exploratory data analysis
 - Feature extraction
+- Data Visualization
 - Flood and Non-Flood classification model
 - Neural network
 - MobileNetV2
@@ -38,7 +39,10 @@ The widespread flooding stranded tens of thousands of people in their homes and 
 
 ## Methodologies
 ### Exploratory data analysis
+- Exploring elements of csv tables
+- Checking relevance with the image dataset
 ### Feature extraction
+### Data Visualization
 ### Flood and Non-Flood classification model
 ### Neural network
 ### MobileNetV2
@@ -49,6 +53,6 @@ The widespread flooding stranded tens of thousands of people in their homes and 
 ## Conclusion
 
 ## References
-[1] https://disasterresponse.maps.arcgis.com/apps/StorytellingSwipe/index.html?appid=2e499ec7eb784237bd70fb16ae0f5dcf#
-[2] http://louisianaview.org/2016/08/historic-louisiana-floods-august-2016/
-[3] https://geodesy.noaa.gov/storm_archive/storms/aug2016_lafloods/index.html#
+[1] https://disasterresponse.maps.arcgis.com/apps/StorytellingSwipe/index.html?appid=2e499ec7eb784237bd70fb16ae0f5dcf# <br>
+[2] http://louisianaview.org/2016/08/historic-louisiana-floods-august-2016/ <br>
+[3] https://geodesy.noaa.gov/storm_archive/storms/aug2016_lafloods/index.html# <br>
