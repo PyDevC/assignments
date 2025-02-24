@@ -1,0 +1,16 @@
+Disaster Response Analysis
+Key Tasks:
+    • Collect datasets related to natural disasters (e.g., floods, earthquakes).
+    • Identify regions at high risk and study response effectiveness.
+Tools Required:
+    • Python Libraries: Pandas, GeoPandas, Seaborn
+Sample Dataset Link:
+Disaster Management Dataset
+Data Analysis Tasks:
+    • Which regions are most prone to specific natural disasters?
+    • How have response times improved over the years?
+    • What is the average recovery time for various disaster types?
+    • Are there patterns in casualty rates based on infrastructure quality?
+    • Which response methods are most effective in reducing damage?
+    • How does socioeconomic status impact recovery rates?
+    • What additional preparedness steps can reduce future risks?
