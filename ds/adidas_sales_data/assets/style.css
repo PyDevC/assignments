@@ -1,0 +1,182 @@
+/*
+body {
+    font-family: "Arial", sans-serif;
+    background-color: rgb(249, 236, 211);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .app-header {
+    text-align: center;
+    margin: 20px 0;
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 20px 0;
+    border-radius: 8px;
+  }
+  .app-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  .dropdown-container {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  .dropdown-container .dcc-dropdown {
+    width: 100% !important;
+  }
+  .dropdown-container .dcc-dropdown select {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+  }
+  
+  .data-insights,
+  .top-bottom-countries,
+  .country-details {
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .data-insights h3,
+  .top-bottom-countries h3,
+  .country-details h3 {
+    margin-bottom: 15px;
+    color: #4caf50;
+    font-size: 1.5em;
+  }
+  
+  .top-bottom-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .top-bottom-container .top-bottom-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: rgb(243, 242, 239);
+  }
+  .top-bottom-container .top-bottom-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .top-bottom-container .top-bottom-section ul li {
+    padding: 5px 0;
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .country-details-section {
+    padding: 40px;
+    border-radius: 10px;
+    background-color: rgb(243, 242, 239);
+  }
+  .country-details-section p {
+    padding: 5px 0;
+    font-size: 1em;
+    color: #666;
+  }/*# sourceMappingURL=style.css.map */
+  
+  /* assets/style.css */
+
+/* Global Styles */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: #f4f7f6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styling */
+.app-header {
+  background: linear-gradient(135deg, #4a90e2, #50e3c2);
+  color: #ffffff;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Horizontal Rule (divider) */
+hr {
+  border: none;
+  height: 1px;
+  background: #e0e0e0;
+  margin-bottom: 30px;
+}
+
+/* Dropdown Styling */
+/* While Dash components use inline styles, you can enhance select menus if you're using a custom class */
+select {
+  border-radius: 4px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Labels for Filters */
+label {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Graph Container Styling */
+/* In case you add a custom class to your graphs (for instance: className='dccGraph') */
+.dccGraph {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Data Insights Box */
+#data-insights {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Utility Classes for Margins & Responsiveness */
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* If you have additional blocks that need centering */
+.text-center {
+  text-align: center;
+}
+
+/* Graph Titles (adjusting Plotly output) */
+.gtitle {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Customize Dash Bootstrap Components where applicable */
+.btn {
+  border-radius: 4px;
+}
+
+/* Optional: Add a subtle hover effect on clickable elements */
+a:hover, button:hover {
+  opacity: 0.85;
+}
+
+/* Adjust spacing for rows in filters if needed */
+.mb-4 {
+  margin-bottom: 2rem !important;
+}
